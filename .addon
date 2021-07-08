@@ -1,0 +1,16 @@
+{
+    "name": "koth",
+    "version": "0.22",
+    "sharedassets": "*.*",
+    "depends": [
+        "base",
+        "citizen"
+    ],
+    "gamemodes": [
+        {
+            "name": "koth",
+            "title": "King of the Hill",
+            "description": "Thirdperson objective free-for-all with 3 custom weapons. Still under development."
+        }
+    ]
+}

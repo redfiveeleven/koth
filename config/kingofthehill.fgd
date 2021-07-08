@@ -1,0 +1,63 @@
+// 
+// pistol1911 : BaseDmWeapon 
+// 
+@PointClass editormodel( "models/1911/1911.vmdl" ) = dm_1911 : ""
+[
+	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
+	parentname(target_destination) [ group="Hierarchy" ] : "Parent" : : "The name of this entity's parent in the movement hierarchy. Entities with parents move with their parent."
+	enable_shadows(boolean) [ group="Render Properties" ] : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
+]
+
+// 
+// ak47 : BaseDmWeapon 
+// 
+@PointClass editormodel( "models/ak47/w_ak47.vmdl" ) = dm_ak47 : ""
+[
+	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
+	parentname(target_destination) [ group="Hierarchy" ] : "Parent" : : "The name of this entity's parent in the movement hierarchy. Entities with parents move with their parent."
+	enable_shadows(boolean) [ group="Render Properties" ] : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
+]
+
+// 
+// mac10 : BaseDmWeapon 
+// 
+@PointClass editormodel( "models/mac10/mac10.vmdl" ) = dm_mac10 : ""
+[
+	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
+	parentname(target_destination) [ group="Hierarchy" ] : "Parent" : : "The name of this entity's parent in the movement hierarchy. Entities with parents move with their parent."
+	enable_shadows(boolean) [ group="Render Properties" ] : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
+]
+
+// 
+// pistol : BaseDmWeapon 
+// 
+@PointClass editormodel( "weapons/rust_pistol/rust_pistol.vmdl" ) = dm_pistol : ""
+[
+	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
+	parentname(target_destination) [ group="Hierarchy" ] : "Parent" : : "The name of this entity's parent in the movement hierarchy. Entities with parents move with their parent."
+	enable_shadows(boolean) [ group="Render Properties" ] : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
+]
+
+// 
+// CapturePointEntity.CapturePoint : Sandbox.Prop 
+// 
+@PointClass model() = ent_cappoint : ""
+[
+	model(studio) [report]: "World Model" : ""
+	skin(materialgroup) [ group="Render Properties" ] : "Skin" : "default" : "Some models have multiple versions of their textures, called skins." 
+	bodygroups(bodygroupchoices) [ group="Render Properties" ] : "Body Groups" : "" 
+	rendercolor(color255) : "FX Color (R G B)" : "255 255 255" : "The FX color is used by the selected Render Mode."
+	renderamt(integer) [ group="Render Properties" ] : "FX Amount (0 - 255)" : 255 : "The FX amount is used by the selected Render Mode."
+	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
+	parentname(target_destination) [ group="Hierarchy" ] : "Parent" : : "The name of this entity's parent in the movement hierarchy. Entities with parents move with their parent."
+	collisiongroupoverride(choices) : "Collision Group Override" : -1 : "" = [
+		-1 : "UNUSED"
+		0 : "COLLISION GROUP ALWAYS"
+		1 : "COLLISION GROUP NONPHYSICAL"
+		4 : "COLLISION GROUP DEFAULT"
+		5 : "COLLISION GROUP DEBRIS"
+		14 : "COLLISION GROUP WEAPON"
+	]
+	enable_shadows(boolean) [ group="Render Properties" ] : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
+]
+

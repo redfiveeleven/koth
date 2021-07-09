@@ -9,7 +9,7 @@
     "gamemodes": [
         {
             "name": "koth",
-            "title": "King of the Hill",
+            "title": "KingOfTheHill",
             "description": "Thirdperson objective free-for-all with 3 custom weapons. Still under development."
         }
     ]

@@ -8,9 +8,12 @@ using CapturePointEntity;
 /// This is the heart of the gamemode. It's responsible
 /// for creating the player and stuff.
 /// </summary>
+/// 
+
+
 namespace koth
 {
-	[Library( "King of the Hill", Title = "KOTH" )]
+	[Library( "koth", Title = "KingOfTheHill" )]
 	partial class kothgame : Game
 	{
 		public kothgame()

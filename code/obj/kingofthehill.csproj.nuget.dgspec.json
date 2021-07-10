@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\kingofthehill\\code\\kingofthehill.csproj": {}
+    "D:\\SteamLibrary\\steamapps\\common\\sbox\\addons\\kingofthehill\\code\\kingofthehill.csproj": {}
   },
   "projects": {
     "D:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\base\\code\\base.csproj": {
@@ -58,14 +58,14 @@
         }
       }
     },
-    "D:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\kingofthehill\\code\\kingofthehill.csproj": {
+    "D:\\SteamLibrary\\steamapps\\common\\sbox\\addons\\kingofthehill\\code\\kingofthehill.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\kingofthehill\\code\\kingofthehill.csproj",
+        "projectUniqueName": "D:\\SteamLibrary\\steamapps\\common\\sbox\\addons\\kingofthehill\\code\\kingofthehill.csproj",
         "projectName": "kingofthehill",
-        "projectPath": "D:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\kingofthehill\\code\\kingofthehill.csproj",
+        "projectPath": "D:\\SteamLibrary\\steamapps\\common\\sbox\\addons\\kingofthehill\\code\\kingofthehill.csproj",
         "packagesPath": "C:\\Users\\terme\\.nuget\\packages\\",
-        "outputPath": "D:\\SteamLibrary\\steamapps\\common\\sbox\\Addons\\kingofthehill\\code\\obj\\",
+        "outputPath": "D:\\SteamLibrary\\steamapps\\common\\sbox\\addons\\kingofthehill\\code\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\terme\\AppData\\Roaming\\NuGet\\NuGet.Config",

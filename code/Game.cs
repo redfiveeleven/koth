@@ -14,7 +14,7 @@ using CapturePointEntity;
 namespace koth
 {
 	[Library( "koth", Title = "KingOfTheHill" )]
-	partial class kothgame : Game
+	partial class kothgame : Sandbox.Game
 	{
 		public kothgame()
 		{
